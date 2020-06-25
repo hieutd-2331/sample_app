@@ -1,0 +1,16 @@
+
+vi:
+  static_pages:
+    help: 
+      title: Trợ giúp 
+      content: Tìm kiếm tài liệu để học Ruby tại 
+      content_second: Trang trợ giúp
+      content_thirty: Để tham khảo ứng dụng mẫu, xem tại
+      tutorial: Tài liệu hướng dẫn  
+    home:
+      title: Trang chủ  
+      content: Đây là trang chủ cho
+      tutorial: Ruby on Rails Tutorial
+      tutorial_second: ""
+  english: Tiếng Anh
+  vietnam: Việt Nam
