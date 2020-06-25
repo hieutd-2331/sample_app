@@ -5,7 +5,7 @@ en:
     help:
       title: Help
       content: Get help on the Ruby on Rails Tutorial at the
-      content_second: trang trợ giúp
+      content_second: Help page
       content_thirty: To get help on this sample app, see the
       tutorial: Ruby on Rails Tutorial
     home:
@@ -13,5 +13,8 @@ en:
       content: This is the home page for the
       tutorial: Ruby on Rails Tutorial
       tutorial_second: sample application.
+      sign_up_now: Sign up now!
+  login: Login
+  sign_up: Sign up
   english: English
   vietnam: Vietnamese

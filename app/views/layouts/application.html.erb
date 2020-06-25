@@ -10,10 +10,9 @@
   </head>
 
   <body>
-    <h5>
-      <%= link_to t("english"), locale: "en" %>
-      <%= link_to t("vietnam"), locale: "vi" %>
-    </h5>
-    <%= yield %>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

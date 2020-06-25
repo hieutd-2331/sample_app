@@ -13,5 +13,8 @@ vi:
       content: Đây là trang chủ cho
       tutorial: Ruby on Rails Tutorial
       tutorial_second: ""
+      sign_up_now: Đăng ký ngay!
+  login: Đăng nhập
+  sign_up: Đăng ký
   english: Tiếng Anh
   vietnam: Việt Nam
