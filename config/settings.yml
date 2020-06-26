@@ -1,1 +1,5 @@
 rails: "http://www.railstutorial.org/"
+email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+user:
+  email:
+    maximum_length: 255
