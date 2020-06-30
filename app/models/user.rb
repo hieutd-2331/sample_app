@@ -1,8 +1,9 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = Settings.email_regex
+  PERMIT_ATTRIBUTES = %i(name email password password_confirmation)
 
   validates :name, presence: true
-  validates :email, presence: true, length: {maximum: Settings.user.email.max_length}, format: {with: VALID_EMAIL_REGEX}, uniqueness: true
+  validates :email, presence: true, length: {maximum: Settings.user.email.maximum_length}, format: {with: VALID_EMAIL_REGEX}, uniqueness: true
 
   before_save :downcase_email
   has_secure_password
@@ -10,6 +11,6 @@ class User < ApplicationRecord
   private
 
   def downcase_email
-    self.mail.downcase!
+    email.downcase!
   end
 end
