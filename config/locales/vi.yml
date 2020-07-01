@@ -14,6 +14,14 @@ vi:
       tutorial: Ruby on Rails Tutorial
       tutorial_second: ""
       sign_up_now: Đăng ký ngay!
+  users:
+    new:
+      name: Tên
+      email: Địa chỉ email
+      password: Mật khẩu
+      reset: Nhập lại mật khẩu
+  unknown_user: Không tồn tại người dùng này
+  welcome: Chào mừng bạn đến với Sample App
   login: Đăng nhập
   sign_up: Đăng ký
   english: Tiếng Anh

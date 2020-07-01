@@ -14,6 +14,14 @@ en:
       tutorial: Ruby on Rails Tutorial
       tutorial_second: sample application.
       sign_up_now: Sign up now!
+  users:
+    new:
+      name: Name
+      email: Email
+      password: Password
+      reset: Confirmation
+  unknown_user: User is not exist!
+  welcome: Welcom to the sample app!
   login: Login
   sign_up: Sign up
   english: English
