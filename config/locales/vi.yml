@@ -26,6 +26,7 @@ vi:
       password: Mật khẩu
       new_user: Tài khoản mới?
       signup_now: Đăng ký ngay!
+      remember_me: Lưu tài khoản
   unknown_user: Không tồn tại người dùng này
   welcome: Chào mừng bạn đến với Sample App
   login: Đăng nhập

@@ -26,6 +26,7 @@ en:
       password: Password
       new_user: New User?
       signup_now: Sign up now!
+      remember_me: Remember me on this computer
   unknown_user: User is not exist!
   welcome: Welcom to the sample app!
   login: Login
