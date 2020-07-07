@@ -1,6 +1,10 @@
 
 vi:
   slogan: Tài liệu hướng dẫn học Ruby on Rails
+  home: Trang chủ
+  help: Trợ giúp
+  users: Người dùng
+  login: Đăng nhập
   static_pages:
     help:
       title: Trợ giúp
@@ -15,11 +19,28 @@ vi:
       tutorial_second: ""
       sign_up_now: Đăng ký ngay!
   users:
+    title: Người dùng
     new:
       name: Tên
       email: Địa chỉ email
       password: Mật khẩu
       reset: Nhập lại mật khẩu
+      sign_up: Đăng ký
+    edit:
+      change: Thay đổi
+      edit_user: Cập nhật người dùng
+      update: Cập nhật
+    index:
+      all_user: Tất cả người dùng
+      confirm: Bạn có chắc chắn không?
+    _form:
+      name: Tên
+      email: Địa chỉ email
+      password: Mật khẩu
+      password_confirmation: Nhập lại mật khẩu
+    profile_updated: Hồ sơ đã được cập nhật
+    user_deleted: Người dùng đã được xóa
+    please_login: Vui lòng đăng nhập
   sessions:
     new:
       email: Địa chỉ email
@@ -27,6 +48,12 @@ vi:
       new_user: Tài khoản mới?
       signup_now: Đăng ký ngay!
       remember_me: Lưu tài khoản
+  account:
+    title: Tài khoản
+    profile: Thông tin cá nhân
+    setting: Cài đặt
+    login: Đăng nhập
+    log_out: Đăng xuất
   unknown_user: Không tồn tại người dùng này
   welcome: Chào mừng bạn đến với Sample App
   login: Đăng nhập

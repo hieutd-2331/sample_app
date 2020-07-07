@@ -1,6 +1,10 @@
 
 en:
   slogan: Ruby on Rails Tutorial Sample App
+  home: Home
+  help: Help
+  users: Users
+  login: Login
   static_pages:
     help:
       title: Help
@@ -15,11 +19,27 @@ en:
       tutorial_second: sample application.
       sign_up_now: Sign up now!
   users:
+    title: Users
     new:
       name: Name
       email: Email
       password: Password
       reset: Confirmation
+    edit:
+      change: Change
+      edit_user: Edit user
+      update: Update
+    index:
+      all_user: All users
+      confirm: You sure ?
+    _form:
+      name: Name
+      email: Email
+      password: Password
+      password_confirmation: Confirmation
+    profile_updated: Profile updated
+    user_deleted: User deleted
+    please_login: Please login
   sessions:
     new:
       email: Email
@@ -27,6 +47,12 @@ en:
       new_user: New User?
       signup_now: Sign up now!
       remember_me: Remember me on this computer
+  account:
+    title: Account
+    profile: Profile
+    setting: Setting
+    login: Login
+    log_out: Logout
   unknown_user: User is not exist!
   welcome: Welcom to the sample app!
   login: Login
