@@ -48,6 +48,7 @@ vi:
       new_user: Tài khoản mới?
       signup_now: Đăng ký ngay!
       remember_me: Lưu tài khoản
+      forgot_password: Quên mật khẩu
     account_not_activated: "Tài khoản chưa được kích hoạt.Vui lòng kiểm tra email để lấy link kích hoạt."
   account:
     title: Tài khoản
@@ -63,6 +64,18 @@ vi:
     greeting: Xin chào
     content: Xin chào bạn đến với Sample App! Vui lòng kích vào đường link dưới đây để kích hoạt tài khoản
     activate: Kích hoạt
+  password_resets:
+    edit:
+      title: Tạo mật khẩu mới
+      password: Mật khẩu
+      password_confirmation: Nhập lại mật khẩu
+      update: Cập nhật
+    new:
+      title: Quên mật khẩu
+      password_reset: Cài lại mật khẩu
+      submit: Cập nhật
+    sended_email: Thư điện tử được gửi với hướng dẫn đổi mật khẩu
+    unsended_email: Địa chỉ thư điện tử không tìm thấy
   unknown_user: Không tồn tại người dùng này
   welcome: Chào mừng bạn đến với Sample App
   login: Đăng nhập

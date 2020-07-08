@@ -47,6 +47,7 @@ en:
       new_user: New User?
       signup_now: Sign up now!
       remember_me: Remember me on this computer
+      forgot_password: Forgot password
     account_not_activated: "Account not activated. Check your email for the activation link."
   account:
     title: Account
@@ -62,6 +63,18 @@ en:
     greeting: Hi
     content: Welcome to the Sample App! Click on the link below to activate your account
     activate: Activate
+  password_resets:
+    edit:
+      title: Reset password
+      password: Password
+      password_confirmation: Confirmation
+      update: Update
+    new:
+      title: Forget password
+      password_reset: Reset Password
+      submit: Submit
+    sended_email: Email sent with password reset instructions
+    unsended_email: Email address not found
   unknown_user: User is not exist!
   welcome: Welcom to the sample app!
   login: Login
