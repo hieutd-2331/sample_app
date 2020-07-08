@@ -47,12 +47,21 @@ en:
       new_user: New User?
       signup_now: Sign up now!
       remember_me: Remember me on this computer
+    account_not_activated: "Account not activated. Check your email for the activation link."
   account:
     title: Account
     profile: Profile
     setting: Setting
     login: Login
     log_out: Logout
+  account_activation:
+    invalid_activation: Invalid activation link
+    account_activated: Account activated
+  user_mail:
+    account_activation: Account activation
+    greeting: Hi
+    content: Welcome to the Sample App! Click on the link below to activate your account
+    activate: Activate
   unknown_user: User is not exist!
   welcome: Welcom to the sample app!
   login: Login

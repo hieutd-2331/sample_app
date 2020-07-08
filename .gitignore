@@ -38,9 +38,12 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
-/test/test_helper.rb
+/test/*
 
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
 config/database.yml
+
+# Ignore application configuration
+/config/application.yml

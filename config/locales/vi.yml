@@ -48,12 +48,21 @@ vi:
       new_user: Tài khoản mới?
       signup_now: Đăng ký ngay!
       remember_me: Lưu tài khoản
+    account_not_activated: "Tài khoản chưa được kích hoạt.Vui lòng kiểm tra email để lấy link kích hoạt."
   account:
     title: Tài khoản
     profile: Thông tin cá nhân
     setting: Cài đặt
     login: Đăng nhập
     log_out: Đăng xuất
+  account_activation:
+    invalid_activation: Đường dẫn không còn hiệu lực
+    account_activated: Tài khoản đã được kích hoạt
+  user_mail:
+    account_activation: Tài khoản được kích hoạt
+    greeting: Xin chào
+    content: Xin chào bạn đến với Sample App! Vui lòng kích vào đường link dưới đây để kích hoạt tài khoản
+    activate: Kích hoạt
   unknown_user: Không tồn tại người dùng này
   welcome: Chào mừng bạn đến với Sample App
   login: Đăng nhập
