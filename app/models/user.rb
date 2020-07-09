@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = Settings.email_regex
   PERMIT_ATTRIBUTES = %i(name email password password_confirmation)
-  attr_accessor :remember_token, :activation_token
+  attr_accessor :remember_token, :activation_token, :reset_token
 
   validates :name, presence: true
   validates :email, presence: true, length: {maximum: Settings.user.email.maximum_length}, format: {with: VALID_EMAIL_REGEX}
@@ -53,6 +53,15 @@ class User < ApplicationRecord
 
   def send_activation_email
     UserMailer.account_activation(self).deliver_now
+  end
+
+  def create_reset_digest
+    self.reset_token = User.new_token
+    update_attributes reset_digest: User.digest(reset_token), reset_sent_at: Time.zone.now
+  end
+
+  def send_password_reset_email
+    UserMailer.password_reset(self).deliver_now
   end
 
   private
