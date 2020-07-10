@@ -76,6 +76,10 @@ vi:
       submit: Cập nhật
     sended_email: Thư điện tử được gửi với hướng dẫn đổi mật khẩu
     unsended_email: Địa chỉ thư điện tử không tìm thấy
+  microposts:
+    micropost_created: Micropost đã được tạo!
+    micropost_deleted: Micropost đã được xóa!
+
   unknown_user: Không tồn tại người dùng này
   welcome: Chào mừng bạn đến với Sample App
   login: Đăng nhập

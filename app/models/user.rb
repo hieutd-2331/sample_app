@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   VALID_EMAIL_REGEX = Settings.email_regex
   PERMIT_ATTRIBUTES = %i(name email password password_confirmation)
   attr_accessor :remember_token, :activation_token, :reset_token
@@ -62,6 +63,10 @@ class User < ApplicationRecord
 
   def send_password_reset_email
     UserMailer.password_reset(self).deliver_now
+  end
+
+  def feed
+    microposts
   end
 
   private

@@ -9,3 +9,10 @@ user:
     minimum_length: 6
   gravatar: "http://gravatar.com/emails"
 email_form: "taduyhieucntt98@gmail.com"
+micropost:
+  max_length: 140
+  resize_width: 500
+  resize_height: 500
+  number: 5
+  size: 50
+  content_type: "image/jpeg,image/gif,image/png"
