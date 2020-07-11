@@ -38,6 +38,10 @@ en:
       email: Email
       password: Password
       password_confirmation: Confirmation
+    follow:
+      title: Follow
+    unfollow:
+      title: Unfollow
     profile_updated: Profile updated
     user_deleted: User deleted
     please_login: Please login
@@ -77,6 +81,7 @@ en:
     sended_email: Email sent with password reset instructions
     unsended_email: Email address not found
   microposts:
+    title: Microposts
     micropost_created: Micropost created!
     micropost_deleted: Micropost deleted
   shared:
@@ -86,6 +91,9 @@ en:
       compose_new: Compose new micropost...
     _error_messages:
       contains: The form contains
+    _stats:
+      followers: Followers
+      following: Following
   unknown_user: User is not exist!
   welcome: Welcom to the sample app!
   login: Login

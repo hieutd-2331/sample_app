@@ -10,6 +10,7 @@ class Micropost < ApplicationRecord
 
   scope :by_created_at, -> { order(created_at: :desc) }
   scope :recent_posts, -> { order created_at: :desc }
+  scope :feed_user, -> user_id {where "user_id IN (?)", user_id}
 
   def display_image
     image.variant resize_to_limit: [Settings.micropost.resize_width, Settings.micropost.resize_height]

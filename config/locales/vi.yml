@@ -41,6 +41,10 @@ vi:
     profile_updated: Hồ sơ đã được cập nhật
     user_deleted: Người dùng đã được xóa
     please_login: Vui lòng đăng nhập
+    follow:
+      title: Theo dõi
+    unfollow:
+      title: Bỏ theo dõi
   sessions:
     new:
       email: Địa chỉ email
@@ -77,9 +81,19 @@ vi:
     sended_email: Thư điện tử được gửi với hướng dẫn đổi mật khẩu
     unsended_email: Địa chỉ thư điện tử không tìm thấy
   microposts:
+    title: Bài viết
     micropost_created: Micropost đã được tạo!
     micropost_deleted: Micropost đã được xóa!
-
+  shared:
+    _user_info:
+      view_my_profile: Trang cá nhân
+    _micropost_form:
+      compose_new: Tạo mới
+    _error_messages:
+      contains: Form chứa
+    _stats:
+      followers: Người theo dõi
+      following: Đang theo dõi
   unknown_user: Không tồn tại người dùng này
   welcome: Chào mừng bạn đến với Sample App
   login: Đăng nhập
