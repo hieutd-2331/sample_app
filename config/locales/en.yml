@@ -18,6 +18,7 @@ en:
       tutorial: Ruby on Rails Tutorial
       tutorial_second: sample application.
       sign_up_now: Sign up now!
+      micropost_feed: Micropost Feed
   users:
     title: Users
     new:
@@ -75,6 +76,16 @@ en:
       submit: Submit
     sended_email: Email sent with password reset instructions
     unsended_email: Email address not found
+  microposts:
+    micropost_created: Micropost created!
+    micropost_deleted: Micropost deleted
+  shared:
+    _user_info:
+      view_my_profile: View my profile
+    _micropost_form:
+      compose_new: Compose new micropost...
+    _error_messages:
+      contains: The form contains
   unknown_user: User is not exist!
   welcome: Welcom to the sample app!
   login: Login

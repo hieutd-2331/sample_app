@@ -1,14 +1,14 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, except: [:show, :new, :create]
   before_action :find_user, only: [:show, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update]
-
 
   def index
     @users = User.page(params[:page]).per Settings.user.per_page
   end
 
-  def show; end
+   def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.user.per_page
+  end
 
   def new
     @user = User.new
@@ -48,13 +48,6 @@ class UsersController < ApplicationController
   end
 
   private
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".please_login"
-    redirect_to login_url
-  end
 
   def correct_user
     redirect_to(root_url) unless current_user? @user
