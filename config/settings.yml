@@ -8,6 +8,8 @@ user:
   password:
     minimum_length: 6
   gravatar: "http://gravatar.com/emails"
+  show_follow:
+    size: 30
 email_form: "taduyhieucntt98@gmail.com"
 micropost:
   max_length: 140
