@@ -20,7 +20,7 @@ gem "faker", "1.7.3"
 gem "kaminari"
 gem "bootstrap-kaminari-views"
 gem "figaro"
-gem "image_processing", "1.9.3"
+gem "image_processing", "1.12.2"
 gem "mini_magick", "4.9.5"
 gem "active_storage_validations", "0.8.2"
 group :development, :test do
